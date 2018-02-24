@@ -9,3 +9,6 @@ cv2.namedWindow("Image", cv2.WINDOW_NORMAL)
 
 # Show Image on the window
 cv2.imshow("Image", img)
+
+# Write a new Output
+cv2.imwrite("output.jpg", img)
